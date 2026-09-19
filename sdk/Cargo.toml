@@ -18,12 +18,12 @@ default = []
 [dependencies]
 serde = { workspace = true }
 serde_json = { workspace = true }
-thiserror = "2.0.19"
+thiserror = "2.0.20"
 clap = { workspace = true }
 dirs = { workspace = true }
 sha2 = { workspace = true }
-reqwest = { version = "0.13.4", default-features = false, features = ["blocking", "json", "rustls"] }
-globset = "0.4.19"
+reqwest = { version = "0.13.5", default-features = false, features = ["blocking", "json", "rustls"] }
+globset = "0.4.20"
 walkdir = "2.5.0"
 serde_yml = { workspace = true }
 regex-lite = "0.1"
